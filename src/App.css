@@ -4,3 +4,69 @@
   padding: 2rem;
   text-align: center;
 }
+
+
+/* SECTIONS */
+.container {
+  background-color: #F5F5F5;
+  border-radius: 15px 15px 15px 15px;
+}
+.header {
+  line-height: 5px;
+}
+.header > img {
+  border-radius: 15px 15px 0 0;
+}
+.about,
+.interests {
+  text-align: left;
+  padding: 10px 35px; 
+}
+.footer {
+  background-color: #D5D4D8;
+  padding: 10px 0;
+  border-radius: 0 0 15px 15px;
+}
+
+/* HEADINGS */
+.header-title {
+  font-size: 30px;
+}
+
+/* .header-subtitle {
+  color: #652976;
+} */
+
+.header-link {
+  padding: 20px 0;
+  color: #85369C;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+/* ICONS & BUTTONS*/
+.header-btn-container {
+  margin: 30px 0 10px 0;
+}
+.header-button {
+  margin: 0 10px;
+  background-color: #652976;
+}
+.header-button > a {
+  color: white;
+}
+.header-button > a:hover {
+  color: #918E9B;
+}
+.header-icons {
+  margin-right: 5px;
+  font-size: 12px;
+}
+.footer-icons {
+  font-size: 30px;
+  padding: 0 10px;
+  color: #918E9B;
+}
+.footer-icons:hover {
+  color: #652976;
+}

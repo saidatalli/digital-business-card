@@ -7,12 +7,12 @@ export default function Header () {
     return (
         <div className="header">
             <img src={profilePic} alt="saidat alli picture" />
-            <h3>Saidat Alli</h3>
-            <h5>Full Stack Engineer</h5>
-            <span><a href="https://saidatalli.netlify.app/">visit my website</a></span>
-            <div className="header-buttons">
-                <button><a href="#"><FiMail className='header-icons'/>Email</a></button>
-                <button><a href="#"><FaLinkedin className='header-icons'/>LinkedIn</a></button>
+            <h2 className="header-title">Saidat Alli</h2>
+            <h5 className="header-subtitle">Full Stack Engineer</h5>
+            <span><a href="https://saidatalli.netlify.app/" className="header-link">visit my website</a></span>
+            <div className="header-btn-container">
+                <button className="header-button"><a href="#"><FiMail className='header-icons'/>Email</a></button>
+                <button className="header-button"><a href="#"><FaLinkedin className='header-icons'/>LinkedIn</a></button>
             </div>
 
         </div>

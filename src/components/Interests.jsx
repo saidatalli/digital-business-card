@@ -1,8 +1,8 @@
 export default function Interests () {
     return (
-        <div>
+        <div className="interests">
             <h2>Interests</h2>
-            <p>Skincare Lover. Scientist. Food expert. Korean Series Lover.</p>
+            <p>I love cardio, sweet things, new recipes and skincare products. I love love Korean Series.</p>
         </div>
     )
 }

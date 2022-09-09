@@ -5,7 +5,7 @@ A digital business card made with React. Feel free to clone or fork to use for y
 https://digitalbusinesscard.netlify.app/
 
 
-![picture of digital business card]()
+![picture of digital business card](https://github.com/saidatalli/digital-business-card/blob/main/src/assets/digital-business-card-website.png)
 
 ## How It's Made:
 
